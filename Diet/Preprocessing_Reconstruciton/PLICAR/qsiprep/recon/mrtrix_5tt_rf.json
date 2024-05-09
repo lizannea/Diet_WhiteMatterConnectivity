@@ -1,0 +1,31 @@
+{
+    "name": "mrtrix_5tt_rf",
+    "space": "T1w",
+    "atlases": [],
+    "anatomical": [
+        "mrtrix_5tt_hsvs"
+    ],
+    "nodes": [
+        {
+            "name": "msmt_csd",
+            "software": "MRTrix3",
+            "action": "csd",
+            "output_suffix": "msmtcsd",
+            "input": "qsiprep",
+            "parameters": {
+                "mtnormalize": true,
+                "response": {
+                    "algorithm": "dhollander"
+                },
+                "fod": {
+                    "algorithm": "msmt_csd",
+                    "max_sh": [
+                        8,
+                        8,
+                        8
+                    ]
+                }
+            }
+        }
+    ]
+    }
