@@ -1,7 +1,7 @@
 **README: Connectome Analysis with QSIPrep and MRtrix3**
 
 **Overview**
-This repository contains scripts and tools to create connectomes using QSIPrep (v0.16.1), Fmriprep and MRtrix3 (v3.0.3_20210917) operated from the Neurodesk platform. Additonlay, it contains scripts to calculate graph theory measures such as global efficiency, local efficiency, modularity, assortativity, and more calculated through MATLAB and it includes methods to assess connectivity differences through Network-Based Statistic (NBS) and Threshold-Free Network-Based Statistic (TFNBS).
+This repository contains scripts and tools to create connectomes using QSIPrep (v0.16.1), Fmriprep and MRtrix3 (v3.0.3_20210917) operated from the Neurodesk platform. Additonally, it contains scripts to calculate graph theory measures such as global efficiency, local efficiency, modularity, assortativity, and more calculated through MATLAB and it includes methods to assess connectivity differences through Network-Based Statistic (NBS) and Threshold-Free Network-Based Statistic (TFNBS).
 
 **Prerequisites**
 Before running the scripts, organize your data according to the Brain Imaging Data Structure (BIDS) format. This project analyzes data from two clinical trials, therefore specific scripts are provided for each trial dataset (PLICAR and Diabetes).
